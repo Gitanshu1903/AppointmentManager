@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35ABCC98289AED5D0091D1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCC97289AED5D0091D1F7 /* AppDelegate.swift */; };
+		35ABCC9A289AED5D0091D1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCC99289AED5D0091D1F7 /* SceneDelegate.swift */; };
+		35ABCC9C289AED5D0091D1F7 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCC9B289AED5D0091D1F7 /* AppointmentViewController.swift */; };
+		35ABCC9F289AED5D0091D1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ABCC9D289AED5D0091D1F7 /* Main.storyboard */; };
+		35ABCCA2289AED5D0091D1F7 /* AppointmentManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCCA0289AED5D0091D1F7 /* AppointmentManager.xcdatamodeld */; };
+		35ABCCA4289AED5E0091D1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35ABCCA3289AED5E0091D1F7 /* Assets.xcassets */; };
+		35ABCCA7289AED5E0091D1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ABCCA5289AED5E0091D1F7 /* LaunchScreen.storyboard */; };
+		35ABCCB5289AF18F0091D1F7 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCCB4289AF18F0091D1F7 /* WebServices.swift */; };
+		35ABCCB7289AF1DC0091D1F7 /* AppointmentsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCCB6289AF1DC0091D1F7 /* AppointmentsData.swift */; };
+		35ABCCB9289AF5EB0091D1F7 /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCCB8289AF5EB0091D1F7 /* AppointmentViewModel.swift */; };
+		35ABCCBC289AF9D90091D1F7 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABCCBA289AF9D90091D1F7 /* AppointmentTableViewCell.swift */; };
+		35ABCCBD289AF9D90091D1F7 /* AppointmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35ABCCBB289AF9D90091D1F7 /* AppointmentTableViewCell.xib */; };
+		8862CCB8289B97AB0000EBF9 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8862CCB7289B97AB0000EBF9 /* SDWebImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35ABCC94289AED5D0091D1F7 /* AppointmentManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppointmentManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ABCC97289AED5D0091D1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35ABCC99289AED5D0091D1F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35ABCC9B289AED5D0091D1F7 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		35ABCC9E289AED5D0091D1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35ABCCA1289AED5D0091D1F7 /* AppointmentManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppointmentManager.xcdatamodel; sourceTree = "<group>"; };
+		35ABCCA3289AED5E0091D1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35ABCCA6289AED5E0091D1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35ABCCA8289AED5E0091D1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35ABCCB4289AF18F0091D1F7 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		35ABCCB6289AF1DC0091D1F7 /* AppointmentsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsData.swift; sourceTree = "<group>"; };
+		35ABCCB8289AF5EB0091D1F7 /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		35ABCCBA289AF9D90091D1F7 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		35ABCCBB289AF9D90091D1F7 /* AppointmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35ABCC91289AED5D0091D1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8862CCB8289B97AB0000EBF9 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35ABCC8B289AED5D0091D1F7 = {
+			isa = PBXGroup;
+			children = (
+				35ABCC96289AED5D0091D1F7 /* AppointmentManager */,
+				35ABCC95289AED5D0091D1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35ABCC95289AED5D0091D1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCC94289AED5D0091D1F7 /* AppointmentManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35ABCC96289AED5D0091D1F7 /* AppointmentManager */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCC97289AED5D0091D1F7 /* AppDelegate.swift */,
+				35ABCC99289AED5D0091D1F7 /* SceneDelegate.swift */,
+				35ABCCB3289AF0F70091D1F7 /* NetworkLayer */,
+				35ABCCAF289AF0F70091D1F7 /* Model */,
+				35ABCCB2289AF0F70091D1F7 /* View */,
+				35ABCCB1289AF0F70091D1F7 /* ViewModel */,
+				35ABCCAE289AF0F70091D1F7 /* Controller */,
+				35ABCC9D289AED5D0091D1F7 /* Main.storyboard */,
+				35ABCCA5289AED5E0091D1F7 /* LaunchScreen.storyboard */,
+				35ABCCA3289AED5E0091D1F7 /* Assets.xcassets */,
+				35ABCCA8289AED5E0091D1F7 /* Info.plist */,
+				35ABCCA0289AED5D0091D1F7 /* AppointmentManager.xcdatamodeld */,
+			);
+			path = AppointmentManager;
+			sourceTree = "<group>";
+		};
+		35ABCCAE289AF0F70091D1F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCC9B289AED5D0091D1F7 /* AppointmentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35ABCCAF289AF0F70091D1F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCCB6289AF1DC0091D1F7 /* AppointmentsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35ABCCB1289AF0F70091D1F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCCB8289AF5EB0091D1F7 /* AppointmentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		35ABCCB2289AF0F70091D1F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCCBA289AF9D90091D1F7 /* AppointmentTableViewCell.swift */,
+				35ABCCBB289AF9D90091D1F7 /* AppointmentTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35ABCCB3289AF0F70091D1F7 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				35ABCCB4289AF18F0091D1F7 /* WebServices.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35ABCC93289AED5D0091D1F7 /* AppointmentManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ABCCAB289AED5E0091D1F7 /* Build configuration list for PBXNativeTarget "AppointmentManager" */;
+			buildPhases = (
+				35ABCC90289AED5D0091D1F7 /* Sources */,
+				35ABCC91289AED5D0091D1F7 /* Frameworks */,
+				35ABCC92289AED5D0091D1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppointmentManager;
+			packageProductDependencies = (
+				8862CCB7289B97AB0000EBF9 /* SDWebImage */,
+			);
+			productName = AppointmentManager;
+			productReference = 35ABCC94289AED5D0091D1F7 /* AppointmentManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35ABCC8C289AED5D0091D1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					35ABCC93289AED5D0091D1F7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 35ABCC8F289AED5D0091D1F7 /* Build configuration list for PBXProject "AppointmentManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35ABCC8B289AED5D0091D1F7;
+			packageReferences = (
+				8862CCB6289B97AB0000EBF9 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 35ABCC95289AED5D0091D1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35ABCC93289AED5D0091D1F7 /* AppointmentManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35ABCC92289AED5D0091D1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ABCCA7289AED5E0091D1F7 /* LaunchScreen.storyboard in Resources */,
+				35ABCCA4289AED5E0091D1F7 /* Assets.xcassets in Resources */,
+				35ABCC9F289AED5D0091D1F7 /* Main.storyboard in Resources */,
+				35ABCCBD289AF9D90091D1F7 /* AppointmentTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35ABCC90289AED5D0091D1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ABCCB9289AF5EB0091D1F7 /* AppointmentViewModel.swift in Sources */,
+				35ABCC9C289AED5D0091D1F7 /* AppointmentViewController.swift in Sources */,
+				35ABCCB5289AF18F0091D1F7 /* WebServices.swift in Sources */,
+				35ABCCBC289AF9D90091D1F7 /* AppointmentTableViewCell.swift in Sources */,
+				35ABCCA2289AED5D0091D1F7 /* AppointmentManager.xcdatamodeld in Sources */,
+				35ABCC98289AED5D0091D1F7 /* AppDelegate.swift in Sources */,
+				35ABCC9A289AED5D0091D1F7 /* SceneDelegate.swift in Sources */,
+				35ABCCB7289AF1DC0091D1F7 /* AppointmentsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35ABCC9D289AED5D0091D1F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35ABCC9E289AED5D0091D1F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35ABCCA5289AED5E0091D1F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35ABCCA6289AED5E0091D1F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35ABCCA9289AED5E0091D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35ABCCAA289AED5E0091D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35ABCCAC289AED5E0091D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppointmentManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gitanshu.AppointmentManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35ABCCAD289AED5E0091D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppointmentManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gitanshu.AppointmentManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35ABCC8F289AED5D0091D1F7 /* Build configuration list for PBXProject "AppointmentManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ABCCA9289AED5E0091D1F7 /* Debug */,
+				35ABCCAA289AED5E0091D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ABCCAB289AED5E0091D1F7 /* Build configuration list for PBXNativeTarget "AppointmentManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ABCCAC289AED5E0091D1F7 /* Debug */,
+				35ABCCAD289AED5E0091D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8862CCB6289B97AB0000EBF9 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8862CCB7289B97AB0000EBF9 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8862CCB6289B97AB0000EBF9 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		35ABCCA0289AED5D0091D1F7 /* AppointmentManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35ABCCA1289AED5D0091D1F7 /* AppointmentManager.xcdatamodel */,
+			);
+			currentVersion = 35ABCCA1289AED5D0091D1F7 /* AppointmentManager.xcdatamodel */;
+			path = AppointmentManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35ABCC8C289AED5D0091D1F7 /* Project object */;
+}
